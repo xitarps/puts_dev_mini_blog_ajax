@@ -1,0 +1,7 @@
+articlesList = document.querySelector('#articles_list')
+
+tr = document.createElement('tr')
+
+tr.innerHTML = "<%= j render 'article' %>"
+
+articlesList.appendChild(tr)
